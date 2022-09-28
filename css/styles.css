@@ -1,0 +1,130 @@
+body{
+  margin: 0;
+  background-color: #EAF6F6;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  }
+h1{
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF
+}
+.caption{
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: grey;
+  width: 7%;
+  height: 0;
+  }
+  a{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 30px 30px;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #66BFBF;
+  }
+
+.top-container{
+  position: relative;  /* to set it as parent for relative positioning of cloud2*/
+  padding: 100px;
+}
+.cloud1{
+  position: relative;
+    left: 300px;
+}
+.cloud2{
+  position: absolute;   /* to remove from html flow */
+  left: 300px;
+}
+.skills{
+  margin-top: 10px;
+}
+.hd{
+  margin-top: 100px;
+}
+.skill-row{
+  width: 50%;
+  margin: 25px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+.ms{
+  margin-top: 75px;
+  color: #11999E
+}
+
+.bottom-container{
+  margin-top: 50px;
+
+  color: #11999E;
+  background-color: #11999E;
+  padding: 20px 0 30px;
+
+}
+.webDimg{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.leaderimg{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.contact-me{
+  width: 30%;
+  margin: 40px auto 60px;
+}
+.name{
+  color: #EAF6F6;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.xyz{
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+.name{
+  margin-top: 40px;
+}
